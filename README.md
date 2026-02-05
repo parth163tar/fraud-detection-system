@@ -10,7 +10,9 @@ A machine learning-based fraud detection system that identifies fraudulent finan
 
 - [Overview](#overview)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Dataset](#dataset)
+- [Data Exploration](#data-exploration)
 - [Model Performance](#model-performance)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -32,6 +34,18 @@ This project implements a fraud detection system for financial transactions. Usi
 - **Comprehensive Pipeline**: Complete ML pipeline with preprocessing and standardization
 - **Multiple Transaction Types**: Supports PAYMENT, TRANSFER, CASH_OUT, and DEPOSIT transactions
 
+## 📸 Screenshots
+
+### Web Application Interface
+
+**Legitimate Transaction Detection:**
+![App Interface - Safe Transaction](images/7_app_interface.png)
+
+**Fraudulent Transaction Detection:**
+![App Interface - Fraud Alert](images/8_app_interface_fraud.png)
+
+The Streamlit application provides an intuitive interface where users can input transaction details and receive instant fraud predictions with clear visual feedback.
+
 ## 📊 Dataset
 
 The model is trained on a financial transactions dataset containing 6.36 million records with the following features:
@@ -52,9 +66,43 @@ The model is trained on a financial transactions dataset containing 6.36 million
 - Fraudulent transactions: 8,213 (0.13%)
 - Legitimate transactions: 6,354,407 (99.87%)
 
+## 🔍 Data Exploration
+
+### Transaction Distribution
+
+The dataset exhibits a significant class imbalance, with fraudulent transactions representing only 0.13% of all transactions. This imbalance is addressed through balanced class weights in the model.
+
+![Fraud Distribution](images/1_fraud_distribution.png)
+
+### Transaction Types Analysis
+
+Different transaction types show varying patterns. PAYMENT is the most common type, followed by TRANSFER and CASH_OUT operations.
+
+![Transaction Types](images/2_transaction_types.png)
+
+### Fraud Patterns by Transaction Type
+
+Analysis reveals that certain transaction types have higher fraud rates. This insight helps in understanding risk patterns across different transaction categories.
+
+![Fraud by Type](images/3_fraud_by_type.png)
+
+### Amount Distribution Comparison
+
+Fraudulent transactions often show different amount distribution patterns compared to legitimate transactions, which helps the model identify suspicious behavior.
+
+![Amount Distribution](images/4_amount_distribution.png)
+
+### Feature Correlations
+
+Understanding feature correlations helps identify which variables are most important for fraud detection.
+
+![Correlation Heatmap](images/5_correlation_heatmap.png)
+
 ## 📈 Model Performance
 
 The logistic regression model achieves the following performance metrics on the test set:
+
+![Model Performance](images/6_model_performance.png)
 
 | Metric | Legitimate (0) | Fraudulent (1) | Overall |
 |--------|---------------|----------------|---------|
