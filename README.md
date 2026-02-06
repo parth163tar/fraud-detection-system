@@ -201,7 +201,7 @@ fraud-detection-system/
 ├── README.md                     # Project documentation
 ├── images/            # Images App
 └── data/                         # Dataset directory (not included)
-    └── AIML_Dataset.csv          # Transaction dataset
+    └── AIML_Dataset.txt          # Link for Transaction dataset
 ```
 
 ## 🔧 Model Details
