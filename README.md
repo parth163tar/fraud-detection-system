@@ -20,7 +20,6 @@ A machine learning-based fraud detection system that identifies fraudulent finan
 - [Model Details](#model-details)
 - [Web Application](#web-application)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -266,9 +265,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - API endpoint for integration
 - Docker containerization
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
