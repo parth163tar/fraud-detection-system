@@ -72,7 +72,6 @@ The model is trained on a financial transactions dataset containing 6.36 million
 
 The dataset exhibits a significant class imbalance, with fraudulent transactions representing only 0.13% of all transactions. This imbalance is addressed through balanced class weights in the model.
 
-![Fraud Distribution](images/1_fraud_distribution.png)
 
 ### Transaction Types Analysis
 
