@@ -201,7 +201,7 @@ fraud-detection-system/
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
 ├── .gitignore                    # Git ignore file
-│
+├── images/            # Images App
 └── data/                         # Dataset directory (not included)
     └── AIML_Dataset.csv          # Transaction dataset
 ```
