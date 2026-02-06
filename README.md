@@ -101,7 +101,6 @@ Understanding feature correlations helps identify which variables are most impor
 
 The logistic regression model achieves the following performance metrics on the test set:
 
-![Model Performance](images/6_model_performance.png)
 
 | Metric | Legitimate (0) | Fraudulent (1) | Overall |
 |--------|---------------|----------------|---------|
